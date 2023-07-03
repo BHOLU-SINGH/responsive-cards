@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #777, #222);
+}
+
+.container .card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+
+.container .card-box .card {
+    width: 310px;
+    height: auto;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.container .card-box .card .imgBx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.container .card-box .card .imgBx img {
+    width: 150px;
+    height: 150px;
+}
+
+.container .card-box .card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .card-box .card .card-body h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.container .card-box .card .card-body p {
+    font-size: 0.89rem;
+    color: #333;
+}
+
+.container .card-box .card .card-body p i {
+    font-size: 0.75rem;
+}
+
+.container .card-box .card .card-body .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.container .card-box .card .card-body .btn button {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.container .card-box .card .card-body .btn button:hover {
+    background: #ddd;
+}
